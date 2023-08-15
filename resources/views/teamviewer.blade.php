@@ -1,7 +1,9 @@
 @extends('main')
 
 @section('title')
-    Teamviewer
+
+@section('styles')
+    <link rel="stylesheet" href="{{ asset('assets/css/teamviewer.css') }}">
 @endsection
 
 @section('content')
