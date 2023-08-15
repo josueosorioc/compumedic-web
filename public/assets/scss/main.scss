@@ -1,0 +1,33 @@
+:root {
+    --white: #ffffff;
+    --black: #202020;
+    --dark-blue: #050a52;
+    --blue: #3056ef;
+    --grey: #cdcdcd;
+    --red: #ce2029;
+    --pink: #ea597b;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('../fonts/Inter-Regular.ttf') format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('../fonts/Inter-Bold.ttf') format("opentype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: var(--negro);
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
