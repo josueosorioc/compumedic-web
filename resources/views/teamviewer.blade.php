@@ -496,16 +496,41 @@
                         ¡Contáctanos para adquirir tu<br>
                         software <span class="text-blue">TeamViewer México!</span>
                     </h3>
-                    <form class="rounded-4">
+                    <form class="rounded-4" action="{{ route('send.lead') }}" method="POST">
+                        @if ($message = Session::get('error'))
+                            <div class="alert alert-danger w-100" role="alert">
+                                @if (is_array($message))
+                                    @foreach ($message as $msg)
+                                        &bullet; {!! $msg !!}<br>
+                                    @endforeach
+                                @else
+                                    {{ $message }}
+                                @endif
+                            </div>
+                        @endif
+                        @csrf
                         <input type="text" placeholder="Nombre completo:" name="nombre" class="form-control mb-2"
                             required>
                         <input type="tel" placeholder="Teléfono" name="telefono" class="form-control mb-2" required>
-                        <input type="email" placeholder="Correo Electrónico" name="email" class="form-control mb-2"
+                        <input type="email" placeholder="Correo Electrónico" name="correo" class="form-control mb-2"
                             required>
                         <textarea placeholder="Mensaje" name="mensaje" rows="5" class="form-control mb-4"></textarea>
+
+                        {{-- CAMPOS UTM --}}
+                        <input type="hidden" name="utm_id"
+                            value="{{ !empty($_GET['utm_id']) ? $_GET['utm_id'] : '' }}">
+                        <input type="hidden" name="utm_content"
+                            value="{{ !empty($_GET['utm_content']) ? $_GET['utm_content'] : '' }}">
+                        <input type="hidden" name="utm_term"
+                            value="{{ !empty($_GET['utm_term']) ? $_GET['utm_term'] : '' }}">
+                        <input type="hidden" name="utm_medium"
+                            value="{{ !empty($_GET['utm_medium']) ? $_GET['utm_medium'] : '' }}">
+                        <input type="hidden" name="utm_source"
+                            value="{{ !empty($_GET['utm_source']) ? $_GET['utm_source'] : '' }}">
+                        <input type="hidden" name="utm_campaign"
+                            value="{{ !empty($_GET['utm_campaign']) ? $_GET['utm_campaign'] : '' }}">
                         <button class="btn-cta w-100">Enviar</button>
                     </form>
-                    </h3>
                 </div>
                 <div class="col-md-6 position-relative desktop-item">
                     <img src="{{ asset('assets/images/teamviewer/compumedic-banner-footer-fig.png') }}" alt=""

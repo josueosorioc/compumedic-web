@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,9 @@ Route::get('/', function () {
 Route::get('teamviewer', function () {
     return view('teamviewer');
 });
+
+Route::get('gracias', function () {
+    return view('gracias');
+})->name('gracias');
+
+Route::post('send-lead', [ContactController::class, 'sendLead'])->name('send.lead');
