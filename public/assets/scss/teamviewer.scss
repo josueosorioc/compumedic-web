@@ -1,3 +1,60 @@
 .teamviewer {
-    
+    .sec1 {
+        background-image: url("../images/teamviewer/compumedic-teamviewer-header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .teamviewer-image { width: 250px;}
+    }
+    .sec5 {
+        background-image: url("../images/teamviewer/compumedic-teamviewer-banner-azul.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sec7 {
+        .card-box {
+            border: 1px solid var(--grey);
+            border-radius: 20px;
+            transition: 0.1s;
+            .icon {
+                background-image: url("../images/teamviewer/teamviewer-icono-1.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 50px;
+                height: 50px;
+                margin: auto;
+            }
+            .card-header {
+                padding: 30px;
+                border-radius: 20px 20px 0 0;
+                border-bottom: 1px solid var(--grey);
+                transition: 0.1s;
+            }
+            .card-body { padding: 30px 30px 100px }
+            .btn-cta {
+                background-color: var(--white);
+                color: var(--blue);
+                border: 2px solid var(--blue);
+                min-width: 198px;
+            }
+            &:hover {
+                box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.2);
+                .icon { background-image: url("../images/teamviewer/teamviewer-icono-2.png") }
+                .card-header {
+                    background-color: var(--blue);
+                    .text-blue { color: var(--white) }
+                    .text-dark-blue { color: var(--white) }
+
+                }
+                .btn-cta {
+                    background-color: var(--blue);
+                    color: var(--white);
+                }
+            }
+        }
+    }
+    .sec8 {
+        background-image: url("../images/teamviewer/compumedic-teamviewer-banner-azul-oscuro.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }

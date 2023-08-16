@@ -24,13 +24,40 @@
 
 html, body {
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--negro);
     height: 100%;
     width: 100%;
     margin: 0px;
     padding: 0px;
 }
+
+.d-pad { padding: 80px 10% }
+
+h1 { font-size: 45px }
+h2 { font-size: 45px }
+h3 { font-size: 30px }
+.fs-20 { font-size: 20px }
+.fs-15 { font-size: 15px }
+
+.text-blue { color: var(--blue) }
+.text-dark-blue { color: var(--dark-blue) }
+
+.btn-cta {
+    padding: 13px 30px;
+    display: inline-block;
+    background-color: var(--blue);
+    color: var(--white);
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    &:hover {
+      color: var(--white);
+      background-color: var(--dark-blue);
+    }
+  }
 
 @import "partials/header";
 @import "partials/footer";
