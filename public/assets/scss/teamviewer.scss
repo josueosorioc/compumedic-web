@@ -68,13 +68,20 @@
                 border: 1px solid var(--dark-blue);
                 border-bottom: 0;
                 &:focus { box-shadow: none }
+                &.last {
+                    border-bottom: 1px solid var(--dark-blue);
+                }
+                ::after {
+                    background-image: url("../images/teamviewer/flecha-01.png");
+                }
                 &:not(.collapsed) {
                     background-color: var(--blue);
                     color: var(--white);
                     border: none;
-                }
-                &.last {
-                    border-bottom: 1px solid var(--dark-blue);
+                    &::after {
+                        background-image: url("../images/teamviewer/flecha-02.png");
+                        transform: none;
+                    }
                 }
             }
         }
