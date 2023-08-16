@@ -57,4 +57,38 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .sec9 {
+        .faqs {
+            .accordion-item {
+                border: none;
+                border-radius: 0;
+            }
+            .accordion-button {
+                border-radius: 0 !important;
+                border: 1px solid var(--dark-blue);
+                border-bottom: 0;
+                &:focus { box-shadow: none }
+                &:not(.collapsed) {
+                    background-color: var(--blue);
+                    color: var(--white);
+                    border: none;
+                }
+            }
+        }
+    }
+    .sec10 {
+        background-image: url("../images/teamviewer/compumedic-teamviewer-footer.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .figure {
+            max-width: 545px;
+            max-height: 817px;
+            position: absolute;
+            margin: auto;
+            bottom: -90px;
+            left: 0;
+            right: 0;
+            width: 85%;
+        }
+    }
 }
