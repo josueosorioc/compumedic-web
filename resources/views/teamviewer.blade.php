@@ -12,7 +12,7 @@
         {{-- SEC1 --}}
         <div class="container-fluid sec1 d-pad">
             <div class="row align-items-center">
-                <div class="col-md-7">
+                <div class="col-md-7 text-md-start text-center mb-3">
                     <h1 class="text-white fw-bold">
                         Distribuidores autorizados de TeamViewer México
                     </h1>
@@ -121,33 +121,43 @@
                 </div>
             </div>
             <div class="row align-items-center gx-5">
-                <div class="col-md-4">
+                <div class="col-md-4 desktop-item">
                     <img src="{{ asset('assets/images/teamviewer/compumedic-teamviewer-img-01.png') }}" alt=""
                         class="w-100 mb-4">
                 </div>
                 <div class="col-md-8">
-                    <div class="d-flex mb-3">
+                    <div class="d-flex mb-md-3 mb-0">
                         <div class="pink-quote me-4 f-none"></div>
                         <div class="info">
                             <h3 class="mb-3">Rapidez en la solución de problemas</h3>
-                            <p>
+                            <p class="desktop-item">
                                 <strong> TeamViewer México </strong> está diseñado para ser
                                 fácil de usar y obtener soporte remoto inmediato ante diversos
                                 problemas técnicos para no afectar la productividad de las empresas.
                             </p>
                         </div>
                     </div>
-                    <div class="d-flex mb-3">
+                    <p class="mobile-item mb-4">
+                        <strong> TeamViewer México </strong> está diseñado para ser
+                        fácil de usar y obtener soporte remoto inmediato ante diversos
+                        problemas técnicos para no afectar la productividad de las empresas.
+                    </p>
+                    <div class="d-flex mb-md-3 mb-0">
                         <div class="pink-quote me-4 f-none"></div>
                         <div class="info">
                             <h3 class="mb-3">Software altamente seguro</h3>
-                            <p>
+                            <p class="desktop-item">
                                 <strong> TeamViewer México </strong> cuenta con altos estándares de
                                 seguridad protegiendo tu información con la autenticación de dos
                                 factores, ID de asistencia y otras medidas de autorización.
                             </p>
                         </div>
                     </div>
+                    <p class="mobile-item">
+                        <strong> TeamViewer México </strong> cuenta con altos estándares de
+                        seguridad protegiendo tu información con la autenticación de dos
+                        factores, ID de asistencia y otras medidas de autorización.
+                    </p>
                 </div>
             </div>
         </div>
@@ -162,7 +172,7 @@
                             <h3 class="fw-bold mb-3">
                                 ¡Adquiere TeamViewer México con nosotros!
                             </h3>
-                            <p class="mb-0">
+                            <p class="mb-0 desktop-item">
                                 Con más de 18 años de experiencia, en CompuMedic ofrecemos las
                                 mejores soluciones de soporte técnico, además, somos distribuidor
                                 autorizado de <strong>TeamViewer México</strong> y ofrecemos más
@@ -171,6 +181,13 @@
                             </p>
                         </div>
                     </div>
+                    <p class="mb-0 mobile-item">
+                        Con más de 18 años de experiencia, en CompuMedic ofrecemos las
+                        mejores soluciones de soporte técnico, además, somos distribuidor
+                        autorizado de <strong>TeamViewer México</strong> y ofrecemos más
+                        de 150 marcas de licenciamiento de software original,
+                        ¡con factura fiscal en tu compra!
+                    </p>
                 </div>
             </div>
         </div>
@@ -178,11 +195,11 @@
         {{-- SEC6 --}}
         <div class="container-fluid sec6 d-pad">
             <div class="row gx-5 align-items-center">
-                <div class="col-md-4">
+                <div class="col-md-4 desktop-item">
                     <img src="{{ asset('assets/images/teamviewer/compumedic-teamviewer-img-02.png') }}" alt=""
                         class="w-100">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 text-md-start text-center">
                     <h2 class="text-dark-blue fw-bold">
                         Haz deducible tu compra de TeamViewer México
                     </h2>
@@ -193,6 +210,8 @@
                         deducible
                         de impuestos ante el SAT.
                     </p>
+                    <img src="{{ asset('assets/images/teamviewer/compumedic-teamviewer-img-02.png') }}" alt=""
+                        class="w-100 mobile-item mt-4">
                 </div>
             </div>
         </div>
@@ -296,15 +315,17 @@
                     <div class="d-flex mb-3">
                         <div class="pink-quote me-4 f-none"></div>
                         <div class="info">
-                            <h3 class="fw-bold mb-3">
-                                ¡CompuMedic es tu mejor opción!
-                            </h3>
-                            <p class="mb-0">
+                            <h3 class="fw-bold mb-3">¡CompuMedic es tu mejor opción!</h3>
+                            <p class="mb-0 desktop-item">
                                 Obtén los beneficios del sistema TeamViewer México con los líderes
                                 en soporte técnico que te ofrecen factura fiscal en tu compra.
                             </p>
                         </div>
                     </div>
+                    <p class="mb-0 mobile-item">
+                        Obtén los beneficios del sistema TeamViewer México con los líderes
+                        en soporte técnico que te ofrecen factura fiscal en tu compra.
+                    </p>
                 </div>
             </div>
         </div>
@@ -320,34 +341,35 @@
                     <div class="accordion faqs">
                         <div class="accordion-item">
                             <h3 class="accordion-header">
-                                <button class="accordion-button fw-bold text-dark-blue" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-1" aria-expanded="true"
+                                <button class="accordion-button fw-bold text-dark-blue" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq-1" aria-expanded="true"
                                     aria-controls="faq-1">
                                     ¿Qué es TeamViewer México y cómo puede beneficiar a mi empresa?
                                 </button>
                             </h3>
                             <div id="faq-1" class="accordion-collapse collapse show">
                                 <div class="accordion-body">
-                                   <p>
-                                        El TeamViewer es un sistema de asistencia que brinda acceso a 
-                                        dispositivos a larga distancia para facilitar las operaciones 
-                                        de tu empresa, así como para solucionar problemas técnicos de 
-                                        manera remota. 
-                                   </p>
-                                   <p>
-                                        Entre los beneficios que tiene el <strong>TeamViewer México</strong> para las empresas están:<br>
+                                    <p>
+                                        El TeamViewer es un sistema de asistencia que brinda acceso a
+                                        dispositivos a larga distancia para facilitar las operaciones
+                                        de tu empresa, así como para solucionar problemas técnicos de
+                                        manera remota.
+                                    </p>
+                                    <p>
+                                        Entre los beneficios que tiene el <strong>TeamViewer México</strong> para las
+                                        empresas están:<br>
                                         &bullet; Poder atender a los clientes a distancia. <br>
                                         &bullet; Trabajar de manera remota. <br>
                                         &bullet; Conectarse a dispositivos sin la asistencia de terceros. <br>
                                         &bullet; Establecer control e intercambiar archivos entre dispositivos.
-                                   </p>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h3 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold text-dark-blue" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-2" aria-expanded="false"
+                                <button class="accordion-button collapsed fw-bold text-dark-blue" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq-2" aria-expanded="false"
                                     aria-controls="faq-2">
                                     ¿Cuántas instalaciones de TeamViewer México permite una licencia y cómo se gestionan?
                                 </button>
@@ -365,17 +387,18 @@
                         </div>
                         <div class="accordion-item">
                             <h3 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold text-dark-blue" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-3" aria-expanded="false"
+                                <button class="accordion-button collapsed fw-bold text-dark-blue" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq-3" aria-expanded="false"
                                     aria-controls="faq-3">
-                                    ¿Cuál es el costo de una licencia de TeamViewer y cuáles son los métodos de pago disponibles?
+                                    ¿Cuál es el costo de una licencia de TeamViewer y cuáles son los métodos de pago
+                                    disponibles?
                                 </button>
                             </h3>
                             <div id="faq-3" class="accordion-collapse collapse">
                                 <div class="accordion-body">
                                     <p>
                                         El sistema <strong>TeamViewer México</strong> tiene un costo diferente según el
-                                        tipo de licencia, contáctanos para cotizar el servicio que necesitas.  
+                                        tipo de licencia, contáctanos para cotizar el servicio que necesitas.
                                     </p>
                                     <p>
                                         En CompuMedic manejamos el método de pago de TeamViewer por Transferencia
@@ -387,10 +410,11 @@
                         </div>
                         <div class="accordion-item">
                             <h3 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold text-dark-blue" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-4" aria-expanded="false"
+                                <button class="accordion-button collapsed fw-bold text-dark-blue" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq-4" aria-expanded="false"
                                     aria-controls="faq-4">
-                                    ¿Puedo obtener una factura XML deducible ante el SAT por la compra de una licencia de TeamViewer México?
+                                    ¿Puedo obtener una factura XML deducible ante el SAT por la compra de una licencia de
+                                    TeamViewer México?
                                 </button>
                             </h3>
                             <div id="faq-4" class="accordion-collapse collapse">
@@ -404,8 +428,8 @@
                         </div>
                         <div class="accordion-item">
                             <h3 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold text-dark-blue" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-5" aria-expanded="false"
+                                <button class="accordion-button collapsed fw-bold text-dark-blue" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq-5" aria-expanded="false"
                                     aria-controls="faq-5">
                                     ¿Qué ventajas tiene comprar la licencia de TeamViewer México a través de CompuMedic?
                                 </button>
@@ -413,7 +437,8 @@
                             <div id="faq-5" class="accordion-collapse collapse">
                                 <div class="accordion-body">
                                     <p>
-                                        Al comprar tu licencia de <strong>TeamViewer México</strong> con nosotros obtienes diversas
+                                        Al comprar tu licencia de <strong>TeamViewer México</strong> con nosotros obtienes
+                                        diversas
                                         ventajas, como el mejor precio de este software en el mercado, además de
                                         la facilidad de pagar por Transferencia Electrónica SPEI en banco mexicano
                                         y recibir una factura fiscal XML para deducir tu compra de impuestos ante el SAT.
@@ -423,8 +448,8 @@
                         </div>
                         <div class="accordion-item">
                             <h3 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold text-dark-blue" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-6" aria-expanded="false"
+                                <button class="accordion-button collapsed fw-bold text-dark-blue" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq-6" aria-expanded="false"
                                     aria-controls="faq-6">
                                     ¿Cuál es el proceso de entrega de la licencia después de realizar la compra?
                                 </button>
@@ -435,15 +460,15 @@
                                         Una vez que compras una licencia de <strong>TeamViewer México</strong> recibirás
                                         varios correos: dos de activación, uno para el Customer Portal y
                                         uno para activar la licencia. En el mismo correo vendrán instrucciones
-                                        en forma de guía o video para instalar el programa en tu dispositivo. 
+                                        en forma de guía o video para instalar el programa en tu dispositivo.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h3 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold text-dark-blue" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-7" aria-expanded="false"
+                                <button class="accordion-button last collapsed fw-bold text-dark-blue" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq-7" aria-expanded="false"
                                     aria-controls="faq-7">
                                     ¿La licencia de TeamViewer incluye actualizaciones y nuevas versiones del software?
                                 </button>
@@ -452,7 +477,8 @@
                                 <div class="accordion-body">
                                     <p>
                                         ¡Por supuesto! Cada una de las licencias de <strong>TeamViewer México</strong>
-                                        permite a los usuarios ejecutar las actualizaciones disponibles para disfrutar de un mejor sistema.
+                                        permite a los usuarios ejecutar las actualizaciones disponibles para disfrutar de un
+                                        mejor sistema.
                                     </p>
                                 </div>
                             </div>
@@ -463,10 +489,10 @@
         </div>
 
         {{-- SEC10 - FORM --}}
-        <div class="container-fluid sec10 d-pad">
+        <div class="container-fluid sec10 d-pad" id="contacto">
             <div class="row gx-5">
                 <div class="col-md-6">
-                    <h3 class="text-white fw-bold mb-5">
+                    <h3 class="text-white fw-bold mb-5 text-md-start text-center">
                         ¡Contáctanos para adquirir tu<br>
                         software <span class="text-blue">TeamViewer México!</span>
                     </h3>

@@ -73,6 +73,9 @@
                     color: var(--white);
                     border: none;
                 }
+                &.last {
+                    border-bottom: 1px solid var(--dark-blue);
+                }
             }
         }
     }
@@ -89,6 +92,16 @@
             left: 0;
             right: 0;
             width: 85%;
+        }
+    }
+    @media (max-width: 500px) and (min-width: 0px) {
+        .sec3 { 
+            br { display: none }
+        }
+        .sec7 {
+            .col-md-4 {
+                margin-bottom: 70px;
+            }
         }
     }
 }

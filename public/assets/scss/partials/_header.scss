@@ -1,0 +1,21 @@
+.navbar {
+    padding: 18px 8.8%;
+    .logo { width: 140px }
+    .nav-link {
+        font-size: 15px;
+        padding: 7px 0px !important;
+        margin: 0 9px;
+        &.active {
+            font-weight: bold;
+            border-bottom: 2px solid var(--red);
+        }
+    }
+    @media (max-width: 500px) and (min-width: 0px) {
+        padding: 18px 5%;
+        .logo { width: 70px }
+        .btn-cta {
+            padding: 9px 10px;
+            font-size: 15px;
+        }
+    }
+}

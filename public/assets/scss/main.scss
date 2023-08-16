@@ -71,6 +71,10 @@ h3 { font-size: 30px }
       color: var(--white);
       background-color: var(--dark-blue);
     }
+    &.bg-red {
+        background-color: var(--red);
+        color: var(--white);
+    }
 }
 
 form {
@@ -91,7 +95,11 @@ form {
   .desktop-item { display: none }
   .mobile-item { display: block }
   h1 { font-size: 30px }
-  h2 { font-size: 25px }
+  h2 { font-size: 28px }
   h3 { font-size: 25px }
-
+  .d-pad { padding: 90px 9% }
+  .d-pad-s { padding: 0 9% }
+  form {
+    padding: 30px 15px;
+  }
 }

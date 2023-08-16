@@ -1,0 +1,8 @@
+footer {
+    padding: 20px 10% !important;
+    .social-icon { width: 45px }
+
+    @media (max-width: 500px) and (min-width: 0px) {
+        padding: 20px 8% !important;
+    }
+}

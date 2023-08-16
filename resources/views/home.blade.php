@@ -6,7 +6,7 @@
 
 @section('content')
     <div class="home">
-        <div class="container-fluid sec1">
+        <div class="container-fluid sec1 d-pad">
             <div class="row">
                 <div class="col-md-12">
                     <h1>Home</h1>
