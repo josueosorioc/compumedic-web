@@ -249,8 +249,7 @@
                                 &bullet; 3 sesiones simultáneas (en pestañas) por conexión concurrente <br>
                                 &bullet; Asistencia técnica por teléfono
                             </p>
-                            <p class="text-dark-blue fw-bold mb-0 fs-20">$599MXN al mes</p>
-                            <p class="text-blue fs-15">(facturado anualmente)</p>
+                            
                             <a href="#contacto"
                                 class="btn-cta position-absolute top-100 start-50 translate-middle">Adquiérela hoy</a>
                         </div>
@@ -273,8 +272,7 @@
                                 &bullet; 10 sesiones simultáneas (en pestañas) por conexión concurrente<br>
                                 &bullet; Informes de conexiones salientes
                             </p>
-                            <p class="text-dark-blue fw-bold mb-0 fs-20">$1,190MXN al mes</p>
-                            <p class="text-blue fs-15">(facturado anualmente)</p>
+                            
                             <a href="#contacto"
                                 class="btn-cta position-absolute top-100 start-50 translate-middle">Adquiérela hoy</a>
                         </div>
@@ -298,8 +296,7 @@
                                 &bullet; Informes de conexiones salientes y entrantes<br>
                                 &bullet; Implementación masiva
                             </p>
-                            <p class="text-dark-blue fw-bold mb-0 fs-20">$2,390MXN al mes</p>
-                            <p class="text-blue fs-15">(facturado anualmente)</p>
+                            
                             <a href="#contacto"
                                 class="btn-cta position-absolute top-100 start-50 translate-middle">Adquiérela hoy</a>
                         </div>
