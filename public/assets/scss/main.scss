@@ -42,13 +42,16 @@ h3 { font-size: 30px }
 .text-dark-blue { color: var(--dark-blue) }
 .d-pad { padding: 90px 10% }
 .d-pad-s { padding: 0 10% }
+.d-pad-m { padding: 60px 10% }
 .f-none { flex: none }
 
-.pink-quote {
+.quote {
     background-color: var(--pink);
     height: 32px;
     width: 9px;
     margin-top: 2px;
+    &.bg-pink { background-color: var(--pink) }
+    &.bg-red { background-color: var(--red) }
 }
 
 .divider {

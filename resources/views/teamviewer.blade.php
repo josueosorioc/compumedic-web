@@ -67,7 +67,7 @@
                     <img src="{{ asset('assets/images/teamviewer/compumedic-teamviewer-control.png') }}" alt=""
                         class="w-100 mb-4">
                     <div class="d-flex mb-3">
-                        <div class="pink-quote me-4"></div>
+                        <div class="quote bg-pink me-4"></div>
                         <h3 class="mb-0">Acceso y control <br> remoto</h3>
                     </div>
                     <p>
@@ -79,7 +79,7 @@
                     <img src="{{ asset('assets/images/teamviewer/compumedic-teamviewer-soporte.png') }}" alt=""
                         class="w-100 mb-4">
                     <div class="d-flex mb-3">
-                        <div class="pink-quote me-4"></div>
+                        <div class="quote bg-pink me-4"></div>
                         <h3 class="mb-0">Soporte técnico a<br> distancia</h3>
                     </div>
                     <p>
@@ -91,7 +91,7 @@
                     <img src="{{ asset('assets/images/teamviewer/compumedic-teamviewer-acceso.png') }}" alt=""
                         class="w-100 mb-4">
                     <div class="d-flex mb-3">
-                        <div class="pink-quote me-4"></div>
+                        <div class="quote bg-pink me-4"></div>
                         <h3 class="mb-0">Control de equipo</h3>
                     </div>
                     <p>
@@ -127,7 +127,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="d-flex mb-md-3 mb-0">
-                        <div class="pink-quote me-4 f-none"></div>
+                        <div class="quote bg-pink me-4 f-none"></div>
                         <div class="info">
                             <h3 class="mb-3">Rapidez en la solución de problemas</h3>
                             <p class="desktop-item">
@@ -143,7 +143,7 @@
                         problemas técnicos para no afectar la productividad de las empresas.
                     </p>
                     <div class="d-flex mb-md-3 mb-0">
-                        <div class="pink-quote me-4 f-none"></div>
+                        <div class="quote bg-pink me-4 f-none"></div>
                         <div class="info">
                             <h3 class="mb-3">Software altamente seguro</h3>
                             <p class="desktop-item">
@@ -167,7 +167,7 @@
             <div class="row align-items-center">
                 <div class="col-md-10">
                     <div class="d-flex mb-3">
-                        <div class="pink-quote me-4 f-none"></div>
+                        <div class="quote bg-pink me-4 f-none"></div>
                         <div class="info">
                             <h3 class="fw-bold mb-3">
                                 ¡Adquiere TeamViewer México con nosotros!
@@ -310,7 +310,7 @@
             <div class="row">
                 <div class="col-md-9">
                     <div class="d-flex mb-3">
-                        <div class="pink-quote me-4 f-none"></div>
+                        <div class="quote bg-pink me-4 f-none"></div>
                         <div class="info">
                             <h3 class="fw-bold mb-3">¡CompuMedic es tu mejor opción!</h3>
                             <p class="mb-0 desktop-item">

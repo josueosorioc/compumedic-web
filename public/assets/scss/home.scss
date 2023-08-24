@@ -1,0 +1,23 @@
+.home {
+    .sec1 {
+        background-image: url("../images/home/compumedic-banner-header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sec3 {
+        background-image: url("../images/home/compumedic-banner-cta.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .icon-years { width: 120px }
+    }
+    .sec6 {
+        background-image: url("../images/home/compumedic-banner-teamviewer.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sec9 {
+        background-image: url("../images/home/compumedic-banner-footer.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
