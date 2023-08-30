@@ -251,66 +251,66 @@
                                 <div class="carousel-item active">
                                     <div class="row">
                                         <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-1.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-1.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-2.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-2.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-3.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-3.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-4.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-4.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-5.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-5.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-6.webp')}}" class="w-100" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-7.webp')}}" class="w-100" alt="">
-                                        </div>
-                                        <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-8.webp')}}" class="w-100" alt="">
-                                        </div>
-                                        <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-9.webp')}}" class="w-100" alt="">
-                                        </div>
-                                        <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-10.webp')}}" class="w-100" alt="">
-                                        </div>
-                                        <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-11.webp')}}" class="w-100" alt="">
-                                        </div>
-                                        <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-12.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-6.webp')}}" class="w-100" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="row">
                                         <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-13.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-7.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-14.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-8.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-15.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-9.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-16.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-10.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-17.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-11.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-2">
-                                            <img src="{{ asset('assets/images/logos/Logo-18.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-12.webp')}}" class="w-100" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('assets/images/Logos/Logo-13.webp')}}" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('assets/images/Logos/Logo-14.webp')}}" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('assets/images/Logos/Logo-15.webp')}}" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('assets/images/Logos/Logo-16.webp')}}" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('assets/images/Logos/Logo-17.webp')}}" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('assets/images/Logos/Logo-18.webp')}}" class="w-100" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -339,78 +339,78 @@
                                 <div class="carousel-item active">
                                     <div class="row">
                                         <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-1.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-1.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-2.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-2.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-3.webp')}}" class="w-100" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-4.webp')}}" class="w-100" alt="">
-                                        </div>
-                                        <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-5.webp')}}" class="w-100" alt="">
-                                        </div>
-                                        <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-6.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-3.webp')}}" class="w-100" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="row">
                                         <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-7.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-4.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-8.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-5.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-9.webp')}}" class="w-100" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-10.webp')}}" class="w-100" alt="">
-                                        </div>
-                                        <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-11.webp')}}" class="w-100" alt="">
-                                        </div>
-                                        <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-12.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-6.webp')}}" class="w-100" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="row">
                                         <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-13.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-7.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-14.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-8.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-15.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-9.webp')}}" class="w-100" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="row">
                                         <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-16.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-10.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-17.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-11.webp')}}" class="w-100" alt="">
                                         </div>
                                         <div class="col-md-4 col">
-                                            <img src="{{ asset('assets/images/logos/Logo-18.webp')}}" class="w-100" alt="">
+                                            <img src="{{ asset('assets/images/Logos/Logo-12.webp')}}" class="w-100" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-md-4 col">
+                                            <img src="{{ asset('assets/images/Logos/Logo-13.webp')}}" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-4 col">
+                                            <img src="{{ asset('assets/images/Logos/Logo-14.webp')}}" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-4 col">
+                                            <img src="{{ asset('assets/images/Logos/Logo-15.webp')}}" class="w-100" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-md-4 col">
+                                            <img src="{{ asset('assets/images/Logos/Logo-16.webp')}}" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-4 col">
+                                            <img src="{{ asset('assets/images/Logos/Logo-17.webp')}}" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-4 col">
+                                            <img src="{{ asset('assets/images/Logos/Logo-18.webp')}}" class="w-100" alt="">
                                         </div>
                                     </div>
                                 </div>
