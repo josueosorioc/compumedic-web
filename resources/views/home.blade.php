@@ -172,7 +172,7 @@
                     <p class="text-white">
                         ¡Ofrecemos +150 marcas de licenciamiento de software original con factura fiscal en tu compra!
                     </p>
-                    <a href="" class="btn-cta bg-red mt-3">Más información</a>
+                    <a href="{{url('/teamviewer')}}" class="btn-cta bg-red mt-3">Más información</a>
                 </div>
                 <div class="col-md-5">
                     <img src="{{ asset('assets/images/home/compumedic-banner-teamviewer-img.png') }}" width="350" alt="">
