@@ -3,6 +3,7 @@
         background-image: url("../images/home/compumedic-banner-header.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        padding: 0px 10%;
     }
     .sec3 {
         background-image: url("../images/home/compumedic-banner-cta.jpg");
@@ -10,14 +11,131 @@
         background-size: cover;
         .icon-years { width: 120px }
     }
+    .sec4 {
+        .custom-margin-top{
+            margin-top: 32px;
+        }
+        .custom-margin-top-x{
+            margin-top: 45px;
+        }
+    }
     .sec6 {
         background-image: url("../images/home/compumedic-banner-teamviewer.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .sec7 {
+        h3 {
+            margin-left: -15%;
+            margin-bottom: 10%;
+        }
+        .barra {
+            width: 12px;
+            height: 40px;
+            background-color: lightgrey;
+            position: absolute;
+        }
+    }
+    .sec8 {
+        .carousel-indicators  {
+            bottom: -60px;
+            
+        }
+        .carousel-indicators [data-bs-target] {
+            height: 16px;
+            background-color: black;
+            border-radius: 100%;
+            width: 16px;
+        }
+
+       .carousel-indicators .active {
+            opacity: 1;
+            background-color: var(--red);
+        }
+    }
     .sec9 {
-        background-image: url("../images/home/compumedic-banner-footer.jpg");
+        background-image: url("../images/home/compumedic-banner-footer-completo.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+
+        form {
+            border-radius: 12px;
+        }
+    }
+
+    @media (max-width: 500px) and (min-width: 0px) {
+        .sec1 {
+            background-image: url("../images/home/compumedic-banner-header-res.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 50% 10%;
+
+            .img-res {
+                margin-bottom: -63%;
+            }
+        }
+
+        .sec3 {
+            background-image: url('../images/home/compumedic-banner-cta-res.jpg');
+            text-align: center;
+        }
+
+        .sec4 {
+
+            padding: 90px 9% 0px;
+
+            h2 {
+                font-size: 40px;
+            }
+
+            .col-md-6 {
+                margin-bottom: 15%;
+                a {
+                    margin-left: 28%;
+                }
+            }
+        }
+
+        .sec5 {
+            h2 {
+                font-size: 40px;
+            }
+        }
+
+        .sec6 {
+            text-align: center;
+            .col-md-5 {
+                margin-top: 15%;
+            }
+        }
+
+        .sec7 {
+            h3 {
+                margin-left: 0px;
+                margin-top: 5%;
+            }
+
+            p {
+                text-align: center;
+            }
+
+            .c-width {
+                margin: 0% 10%;
+            }
+
+            .barra {
+                margin-left: 10%;
+                margin-top: 3%;
+            }
+        }
+
+        .divider {
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        .sec9 {
+            background-image: url("../images/home/compumedic-banner-footer-res.jpg");
+        }
     }
 }
