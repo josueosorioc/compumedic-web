@@ -8,10 +8,12 @@ use App\Mail\Contact;
 use Validator;
 use Mail;
 use Log;
+use Redirect;
 
 class ContactController extends Controller {
 
     public function sendLead(Request $req) {
+      Log::info($req);
         try {
             $validator = Validator::make($req->all(), [
                 'nombre' => 'required',
