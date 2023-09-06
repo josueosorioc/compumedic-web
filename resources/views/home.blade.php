@@ -157,7 +157,7 @@
                     </h2>
                     <img src="{{ asset('assets/images/home/marcas-completo.jpg') }}" alt=""
                         class="w-100 desktop-item">
-                        
+
                     <img src="{{ asset('assets/images/home/marcas-completo-res.jpg') }}" alt=""
                     class="w-100 mobile-item">
                 </div>
@@ -172,7 +172,7 @@
                     <p class="text-white">
                         ¡Ofrecemos +150 marcas de licenciamiento de software original con factura fiscal en tu compra!
                     </p>
-                    <a href="{{url('/teamviewer')}}" class="btn-cta bg-red mt-3">Más información</a>
+                    <a href="{{url('/teamviewer-mexico-distribuidor')}}" class="btn-cta bg-red mt-3">Más información</a>
                 </div>
                 <div class="col-md-5">
                     <img src="{{ asset('assets/images/home/compumedic-banner-teamviewer-img.png') }}" width="350" alt="">
@@ -204,13 +204,13 @@
                                     </p>
                                     <br>
                                     <p class="fw-bold">
-                                        TEL. 8183000544
+                                        <a href="tel:8183000544">TEL. 8183000544</a>
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            
+
                             <div class="row">
                                 <div class="col-md-6">
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.971711531257!2d-100.46115332383742!3d25.771497908198896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629bc5b4ee37b5%3A0x4a33b50cf4400d71!2sCompuMedic%20Dominio%20-%20Reparaci%C3%B3n%20de%20Computadoras!5e0!3m2!1ses!2smx!4v1693334046677!5m2!1ses!2smx" class="w-100" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -221,12 +221,12 @@
                                         Sucursal<br class="desktop-item">
                                         Dominio
                                     </h3>
-    
+
                                     <p class="c-width">
                                         Prol. Ruiz Cortínez 2600 Local 21, col. Cumbres La Rioja, García, Nuevo León, México.
                                     </p>
                                     <br class="mobile-item">
-                                    <p class="fw-bold">TEL. 8133483000</p>
+                                    <p class="fw-bold"><a href="tel:8133483000">TEL. 8133483000<a/></p>
                                 </div>
                             </div>
 
@@ -429,7 +429,7 @@
         </div>
 
         {{-- SEC9 FORM --}}
-        <div class="container-fluid sec9 d-pad ">
+        <div class="container-fluid sec9 d-pad " id="contacto">
             <div class="row">
                 <div class="col-md-6">
                     <h2 class="fw-bold text-white mb-4">
@@ -440,8 +440,8 @@
                     </p>
 
                     <div class="formulario mt-5">
-                        <form>
-
+                        <form action="contact" method="POST">
+                          @csrf
                             <input type="text" name="nombre" class="form-control mb-2" placeholder="Nombre:">
                             <input type="number" name="telefono" class="form-control mb-2" placeholder="Telefono:">
                             <input type="text" name="email" class="form-control mb-2" placeholder="Email:">

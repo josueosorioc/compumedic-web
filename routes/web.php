@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('teamviewer', function () {
+Route::get('teamviewer-mexico-distribuidor', function () {
     return view('teamviewer');
 });
 
