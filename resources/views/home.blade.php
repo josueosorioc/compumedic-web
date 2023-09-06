@@ -13,7 +13,7 @@
         <div class="container-fluid sec1">
             <div class="row align-items-center">
                 <div class="col-md-6 text-md-start text-center mb-3">
-                    <h1 class="text-white fw-bold desktop-item">
+                    <h1 class="text-white fw-bold ">
                         Soluciones de soporte técnico y reparación de computadoras
                     </h1>
                 </div>
@@ -440,7 +440,7 @@
                     </p>
 
                     <div class="formulario mt-5">
-                        <form action="contact" method="POST">
+                        <form action="send-lead" method="POST">
                           @csrf
                             <input type="text" name="nombre" class="form-control mb-2" placeholder="Nombre:">
                             <input type="number" name="telefono" class="form-control mb-2" placeholder="Telefono:">
