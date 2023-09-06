@@ -27,6 +27,8 @@ class ContactController extends Controller {
 
                 $emails = ['adriana.contreras@futurite.com'];
                 Mail::to($emails)->send(new Contact($req));
+                
+                Log::info("se supone envio mail");
 
                 $client = new Client();
                 $resOmnia = $client->request('POST', 'https://omnia.futurite.com/api/save-lead-form', [
