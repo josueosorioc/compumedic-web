@@ -18,20 +18,15 @@ class ContactController extends Controller {
             $validator = Validator::make($req->all(), [
                 'nombre' => 'required',
                 'telefono' => 'required',
-                'correo' => 'required',
+                'email' => 'required',
             ], [], [
                 'nombre' => 'Nombre',
                 'telefono' => 'Teléfono',
-                'correo' => 'Correo Electrónico'
+                'email' => 'Correo Electrónico'
             ]);
-
             if ($validator->passes()) {
-
                 $emails = ['adriana.contreras@futurite.com'];
                 Mail::to($emails)->send(new Contact($req));
-
-                Log::info("se supone envio mail");
-
                 $client = new Client();
                 $resOmnia = $client->request('POST', 'https://omnia.futurite.com/api/save-lead-form', [
                     'verify' => false,
@@ -52,7 +47,6 @@ class ContactController extends Controller {
                 ]);
 
                 Log::info($resOmnia->getBody());
-                Log::info("omnia - se supone envio mail");
                 return redirect()->route('gracias');
             } else {
                 return redirect()->back()->withError($validator->errors()->all());

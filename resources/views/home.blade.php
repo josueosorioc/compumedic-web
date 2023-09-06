@@ -441,6 +441,17 @@
 
                     <div class="formulario mt-5">
                         <form action="{{ route('send.lead') }}" method="POST">
+                          @if ($message = Session::get('error'))
+                              <div class="alert alert-danger w-100" role="alert">
+                                  @if (is_array($message))
+                                      @foreach ($message as $msg)
+                                          &bullet; {!! $msg !!}<br>
+                                      @endforeach
+                                  @else
+                                      {{ $message }}
+                                  @endif
+                              </div>
+                          @endif
                           @csrf
                             <input type="text" name="nombre" class="form-control mb-2" placeholder="Nombre:">
                             <input type="number" name="telefono" class="form-control mb-2" placeholder="Telefono:">
