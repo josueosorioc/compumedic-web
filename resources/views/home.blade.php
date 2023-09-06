@@ -440,7 +440,7 @@
                     </p>
 
                     <div class="formulario mt-5">
-                        <form action="send-lead" method="POST">
+                        <form action="{{ route('send.lead') }}" method="POST">
                           @csrf
                             <input type="text" name="nombre" class="form-control mb-2" placeholder="Nombre:">
                             <input type="number" name="telefono" class="form-control mb-2" placeholder="Telefono:">

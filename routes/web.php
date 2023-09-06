@@ -26,4 +26,4 @@ Route::get('gracias', function () {
     return view('gracias');
 })->name('gracias');
 
-Route::post('send-lead', [ContactController::class, 'sendLead'])->name('send-lead');
+Route::post('send-lead', [ContactController::class, 'sendLead'])->name('send.lead');

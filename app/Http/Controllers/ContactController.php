@@ -27,7 +27,7 @@ class ContactController extends Controller {
 
                 $emails = ['adriana.contreras@futurite.com'];
                 Mail::to($emails)->send(new Contact($req));
-                
+
                 Log::info("se supone envio mail");
 
                 $client = new Client();
@@ -50,6 +50,7 @@ class ContactController extends Controller {
                 ]);
 
                 Log::info($resOmnia->getBody());
+                Log::info("omnia - se supone envio mail");
                 return redirect()->route('gracias');
             } else {
                 return redirect()->back()->withError($validator->errors()->all());
