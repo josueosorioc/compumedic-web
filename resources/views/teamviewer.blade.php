@@ -4,9 +4,13 @@
 
 @section('styles')
     <link rel="stylesheet" href="{{ asset('assets/css/teamviewer.css') }}">
+
+    
 @endsection
 
 @section('content')
+    
+
     <div class="teamviewer">
 
         {{-- SEC1 --}}
