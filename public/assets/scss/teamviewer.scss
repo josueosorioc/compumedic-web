@@ -6,7 +6,7 @@
         .teamviewer-image { width: 250px;}
     }
     .sec5 {
-        background-image: url("../images/teamviewer/compumedic-teamviewer-banner-azul.jpg");
+        background-image: url("../images/home/compumedic-banner-cta.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -32,28 +32,30 @@
             .card-body { padding: 30px 30px 100px }
             .btn-cta {
                 background-color: var(--white);
-                color: var(--blue);
-                border: 2px solid var(--blue);
+                color: var(--black);
+                border: 2px solid var(--black);
                 min-width: 198px;
             }
             &:hover {
                 box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.2);
                 .icon { background-image: url("../images/teamviewer/teamviewer-icono-2.png") }
                 .card-header {
-                    background-color: var(--blue);
-                    .text-blue { color: var(--white) }
+                    background-color: var(--black);
+                    .text-dg { color: var(--white) }
                     .text-dark-blue { color: var(--white) }
-
+                    p {
+                        color: var(--white);
+                    }
                 }
                 .btn-cta {
-                    background-color: var(--blue);
+                    background-color: var(--black);
                     color: var(--white);
                 }
             }
         }
     }
     .sec8 {
-        background-image: url("../images/teamviewer/compumedic-teamviewer-banner-azul-oscuro.jpg");
+        background-image: url("../images/home/compumedic-banner-cta.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -75,7 +77,7 @@
                     background-image: url("../images/teamviewer/flecha-01.png");
                 }
                 &:not(.collapsed) {
-                    background-color: var(--blue);
+                    background-color: var(--black);
                     color: var(--white);
                     border: none;
                     &::after {
@@ -101,6 +103,16 @@
             width: 85%;
         }
     }
+
+    .sec11 {
+        background-image: url("../images/home/compumedic-banner-footer-completo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        form {
+            border-radius: 12px;
+        }
+    }
     @media (max-width: 500px) and (min-width: 0px) {
         .sec3 { 
             br { display: none }
@@ -109,6 +121,10 @@
             .col-md-4 {
                 margin-bottom: 70px;
             }
+        }
+
+        .sec11 {
+            background-image: url("../images/home/compumedic-banner-footer-res.jpg");
         }
     }
 }

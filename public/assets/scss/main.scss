@@ -40,6 +40,7 @@ h3 { font-size: 30px }
 .fs-15 { font-size: 15px }
 .text-blue { color: var(--blue) }
 .text-dark-blue { color: var(--dark-blue) }
+.text-dg { color: var(--black) }
 .d-pad { padding: 90px 10% }
 .d-pad-s { padding: 0 10% }
 .d-pad-m { padding: 60px 10% }
@@ -63,7 +64,7 @@ h3 { font-size: 30px }
 .btn-cta {
     padding: 13px 30px;
     display: inline-block;
-    background-color: var(--blue);
+    background-color: var(--black);
     color: var(--white);
     text-align: center;
     border-radius: 10px;
