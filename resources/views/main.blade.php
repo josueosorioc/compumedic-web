@@ -8,6 +8,11 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    
+    @yield('canonical')
+    @yield('description')
+    @yield('schema')
     @yield('styles')
 
     {{-- <!-- Google Tag Manager -->

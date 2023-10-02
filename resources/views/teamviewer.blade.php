@@ -1,7 +1,68 @@
 @extends('main')
 
-@section('title', 'Teamviewer')
+@section('title', 'TeamViewer México con Factura Fiscal Mexicana')
+@section('canonical')
+<link rel="canonical" href="https://www.compumedic.mx/teamviewer-mexico">
+@endsection
+@section('description')
+<meta name="description" content="Somos distribuidores de TeamViewer en México, te otorgamos factura fiscal Mexicana en la compra de tu licencia ¡Empieza a disfrutar de la conectividad.">
+@endsection
 
+@section('schema')
+{{-- Breadcrumb --}}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/", 
+    "@type": "BreadcrumbList", 
+    "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.compumedic.mx/"  
+    },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "TeamViewer México",
+    "item": "https://www.compumedic.mx/teamviewer-mexico"  
+    }]
+}
+</script>
+{{-- LocalBusiness --}}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Compumedic",
+    "image": "https://le-cdn.website-editor.net/s/3df20299424b42c2aa5e0cfc261e3a51/dms3rep/multi/opt/Compumedic_logoRojo-174w-162w.png?Expires=1689264488&Signature=M1FhNAgMR1f1XX7RiyAxx9qZm8U5b3luNoC3LezPdWCR5n0n7kTGNjkm-m0ViWSuCVNHLyspj-W-nG3zqPxuTvGTbNIX-ODGk73m3kjkyXc-pd5PFglNKXhV9KlTLbBPMUi8xoads1jVpu-Gt4stvNoWDWa7eBU3QDbpA7dSnjWE8Bwi15Eb3Y-Dx-s8d8oMu5O8LeQ9Dg3mSjbD0gSRpdgryZ094teugwxs2fpcu~IzcAUmz30vAuniuWRYPI8DW-3iKrLaOsKvNu9Q1CNe5VMtXplQC0HpNOHWxfv65uKKEMzr9y3JY7hX~N3gdRPHrWnYMTBxK6PD8wh~Jaes5A__&Key-Pair-Id=K2NXBXLF010TJW",
+    "@id": "https://www.compumedic.mx/teamviewer-mexico",
+    "url": "https://www.compumedic.mx/teamviewer-mexico",
+    "telephone": "8183000544",
+    "priceRange": "$$",
+    "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Gran Parque 442",
+    "addressLocality": "Monterrey",
+    "postalCode": "64610",
+    "addressCountry": "MX"
+    }  
+}
+</script>
+{{-- Website --}}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "name": "Compumedic",
+    "url": "https://www.compumedic.mx/teamviewer-mexico",
+    "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.compumedic.mx/teamviewer-mexico/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+    }
+}
+</script>
+    
+@endsection 
 @section('styles')
     <link rel="stylesheet" href="{{ asset('assets/css/teamviewer.css') }}">
 @endsection
@@ -15,7 +76,7 @@
             <div class="row align-items-center">
                 <div class="col-md-7 text-md-start text-center mb-3">
                     <h1 class="text-white fw-bold">
-                        Distribuidores autorizados de TeamViewer en México
+                        Distribuidores autorizados de <strong>TeamViewer en México</strong>
                     </h1>
                     <h3 class="text-blue fw-bold">
                         ¡Te otorgamos factura fiscal mexicana con tu compra!
