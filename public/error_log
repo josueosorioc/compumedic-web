@@ -1,0 +1,12 @@
+[12-Feb-2024 12:18:59 America/Chicago] PHP Warning:  require(/home/compumedic/public_html/compumedic-web/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/compumedic/public_html/compumedic-web/public/index.php on line 34
+[12-Feb-2024 12:18:59 America/Chicago] PHP Warning:  require(/home/compumedic/public_html/compumedic-web/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/compumedic/public_html/compumedic-web/public/index.php on line 34
+[12-Feb-2024 12:18:59 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/compumedic/public_html/compumedic-web/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/compumedic/public_html/compumedic-web/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/compumedic/public_html/compumedic-web/public/index.php on line 34
+[12-Feb-2024 12:19:03 America/Chicago] PHP Warning:  require(/home/compumedic/public_html/compumedic-web/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/compumedic/public_html/compumedic-web/public/index.php on line 34
+[12-Feb-2024 12:19:03 America/Chicago] PHP Warning:  require(/home/compumedic/public_html/compumedic-web/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/compumedic/public_html/compumedic-web/public/index.php on line 34
+[12-Feb-2024 12:19:03 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/compumedic/public_html/compumedic-web/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/compumedic/public_html/compumedic-web/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/compumedic/public_html/compumedic-web/public/index.php on line 34
