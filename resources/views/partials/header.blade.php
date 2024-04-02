@@ -1,10 +1,14 @@
+<div class="whatsappAbs">
+    <a href="https://wa.me/528117772171"><img src="{{ asset('assets/images/whatsapp_layout_5.svg') }}" class="w-100" alt=""></a>
+</div>
+
 <nav class="navbar navbar-expand-lg" data-bs-theme="white">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ url('/') }}">
             <img src="{{ asset('assets/images/logo.webp') }}" alt=""
                 class="logo">
         </a>
-        <a class="btn-cta bg-red mobile-item" href="tel:8183000544">8183000544</a>
+        <a class="btn-cta bg-red mobile-item" href="tel:8133483000">8133483000</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -19,6 +23,6 @@
                 <a class="nav-link" href="{{ url('teamviewer-mexico-distribuidor') }}">TeamViewer</a>
             </div>
         </div>
-        <a class="btn-cta bg-red ms-2 desktop-item" href="tel:8183000544">8183000544</a>
+        <a class="btn-cta bg-red ms-2 desktop-item" href="tel:8133483000">8133483000</a>
     </div>
 </nav>

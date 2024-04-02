@@ -34,7 +34,7 @@ class Contact extends Mailable
         return $this->view('mail')
           ->from($address, $address)
           ->replyTo($this->message->email, $this->message->nombre)
-          ->subject('Mensaje desde la forma de contacto')
+          ->subject('(Nuevo Lead- TV Futurite)')
           ->with( ['info' => $this->message] );
     }
 }
