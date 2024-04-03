@@ -175,7 +175,7 @@
                     <a href="{{url('/teamviewer-mexico-distribuidor')}}" class="btn-cta bg-red mt-3">Más información</a>
                 </div>
                 <div class="col-md-5">
-                    <img src="{{ asset('assets/images/home/compumedic-banner-teamviewer-img.png') }}" width="350" alt="">
+                    <img src="{{ asset('assets/images/home/compumedic-banner-teamviewer-img-2.png') }}" width="350" alt="">
                 </div>
             </div>
         </div>
@@ -187,7 +187,7 @@
                     <h2 class="fw-bold mb-5 text-center">Nuestras sucursales</h2>
 
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
 
                             <div class="row">
                                 <div class="col-md-6">
@@ -195,7 +195,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="barra"></div>
-                                    <h3 class="text-center">
+                                    <h3 class="text-center fw-bold">
                                         Sucursal<br class="desktop-item">
                                         Cumbres
                                     </h3>
