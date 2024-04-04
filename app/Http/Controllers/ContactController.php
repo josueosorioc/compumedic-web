@@ -25,7 +25,7 @@ class ContactController extends Controller {
                 'email' => 'Correo Electrónico'
             ]);
             if ($validator->passes()) {
-                $emails = ['adriana.contreras@futurite.com', 'elarabe82@gmail.com', 'samuel.herrera@futurite.com'];
+                $emails = ['adriana.contreras@futurite.com', 'elarabe82@gmail.com', 'samuel.herrera@futurite.com', 'emilio.batarse@compumedic.mx'];
                 Mail::to($emails)->send(new Contact($req));
                 $client = new Client();
                 $resOmnia = $client->request('POST', 'https://omnia.futurite.com/api/save-lead-form', [
