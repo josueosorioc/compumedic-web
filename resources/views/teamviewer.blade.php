@@ -184,7 +184,7 @@
             </div>
             <div class="row align-items-center gx-5">
                 <div class="col-md-4 desktop-item">
-                    <img src="{{ asset('assets/images/teamviewer/compumedic-teamviewer-img-01.png') }}" alt=""
+                    <img src="{{ asset('assets/images/home/compumedic-banner-teamviewer-img-2.png') }}" alt=""
                         class="w-100 mb-4">
                 </div>
                 <div class="col-md-8">
