@@ -440,7 +440,10 @@
                     </p>
 
                     <div class="formulario mt-5">
-                        <form action="{{ route('send.lead') }}" method="POST">
+        
+                        <iframe aria-label='Contactanos' frameborder="0" style="height:780px;width:99%;border:none;" src='https://forms.zohopublic.com/elarabe82/form/ContactUs/formperma/9fOOGXkBe86ICbetvXb2D88kuyf4-29VvsTb5hMsAgU'></iframe>
+
+                        {{-- <form action="{{ route('send.lead') }}" method="POST">
                           @if ($message = Session::get('error'))
                               <div class="alert alert-danger w-100" role="alert">
                                   @if (is_array($message))
@@ -459,7 +462,7 @@
                             <textarea class="form-control mb-4" name="mensaje" rows="3" placeholder="Mensaje:"></textarea>
 
                             <button type="submit" class="btn-cta bg-red w-100">Enviar</button>
-                        </form>
+                        </form> --}}
                     </div>
                 </div>
                 <div class="col-md-6">
